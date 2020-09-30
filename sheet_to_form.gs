@@ -1,7 +1,6 @@
 function updateForm(){
   // call your form and connect to your desired drop-down item
   var form = FormApp.openById("YOUR FORM ID");
-  
   var itemList = form.getItemById("YOUR ITEM ID").asListItem();
 
 
