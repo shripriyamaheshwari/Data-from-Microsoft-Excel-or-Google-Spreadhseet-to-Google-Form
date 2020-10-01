@@ -6,6 +6,9 @@ Populate your data automatically from Google Sheet to Google Form using Google S
 <img src = "https://github.com/shripriyamaheshwari/Data-from-Google-Sheet-to-Google-Form/blob/master/Screenshots/FormID.PNG" width = 800>
 
 2. In line 4, replace .getItemById("Your dropdown id") with your customised dropdown id. You can find the dropdown id in your google form by right clicking your desired question and selecting inspect element. Search for "data-item id" using Cltr+F to find the dropdown id for that particular question.
+
+<img src = "https://github.com/shripriyamaheshwari/Data-from-Google-Sheet-to-Google-Form/blob/master/Screenshots/ItemID.PNG" width = 1000>
+
 3. In line 9, replace getSheetByName("Your sheet name") with your sheet name you want to populate the data from. Note that give the sheet name (displayed by a tab at the left side on google sheets) and not the document name.
 4. In line 12, names.getRange(1, 1, names.getMaxRows() - 1).getValues(), here the first '1' represents the row number. The second '1' represents the column number. In case you want to skip the header row, pass '2' as the first parameter. If you want to populate the data from column B, change it to 2 and so on.
 ## Step by Step
