@@ -1,5 +1,5 @@
 # Data-from-Google-Spreadsheet-to-Google-Form
-Populate your data automatically from Google Spreadhsheet to Google Form using Google Script Code
+A 4 step approach to populate your data automatically from Google Spreadhsheet to Google Form.
 ## What parameters to change while running the code?
 
 ### Form ID
