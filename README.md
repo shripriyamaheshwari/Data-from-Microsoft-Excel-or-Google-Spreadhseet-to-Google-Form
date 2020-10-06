@@ -1,5 +1,5 @@
 # Data from Microsoft Excel/Google Spreadsheet to Google Form
-A 4 step approach to populate your data automatically from Google Spreadhsheet to Google Form.
+A 4 step approach to populate your data automatically from Microsoft Excel or Google Spreadhsheet to Google Form.
 ## What parameters to change while running the code?
 
 ### Form ID
